@@ -1,0 +1,9 @@
+Bootstrap: docker
+From: ezlabgva/busco:v5.2.2_cv1
+
+%labels
+Maintainer marty.hickman@plantandfood.co.nz
+Version 5.2.2
+
+%runscript
+  exec busco "$@"
