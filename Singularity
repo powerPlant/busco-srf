@@ -1,1 +1,1 @@
-Singularity.5.2.2
+Singularity.5.8.2
